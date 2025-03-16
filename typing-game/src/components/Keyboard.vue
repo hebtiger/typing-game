@@ -17,6 +17,7 @@
   
   <script setup lang="ts">
   import { useGameStore } from '@/stores/game'
+  import { storeToRefs } from 'pinia'
   
   const gameStore = useGameStore()
   const { activeKey } = storeToRefs(gameStore)

@@ -13,6 +13,8 @@
   </template>
   
   <script setup lang="ts">
+  import { storeToRefs } from 'pinia'
+
   import { useGameStore } from '@/stores/game'
   import SettingsPanel from '@/components/SettingsPanel.vue'
   import ScoreBoard from '@/components/ScoreBoard.vue'

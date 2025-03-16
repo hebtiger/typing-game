@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["vite/client"], // 如果使用 Vite
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
